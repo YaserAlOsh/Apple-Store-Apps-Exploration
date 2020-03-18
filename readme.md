@@ -17,28 +17,28 @@ Data Wrangling I have done:
 
 ## Summary of Findings
 
-> I have found that a larger percentage of Paid apps have got high ratings (above 4.0) than Free apps.
+ I have found that a larger percentage of Paid apps have got high ratings (above 4.0) than Free apps.
  I have also noted that as Paid apps get pricier their average ratings get better, 
- and their total ratings count also decrease,since less users would buy pricy apps.
+ and their total ratings count also decrease, since less users would buy pricy apps.
  I thought at first that the increase in average ratings was only because the total ratings were less, 
  but further investigation showed that as the total ratings increase, the average ratings get better, 
  which negates what I have presumed.
- Also, prices seldom went above 30-35$. And when examining prices per Genre, 
+ 
+ > Also, prices seldom went above 30-35$. And when examining prices per Genre, 
  I noted that most genres had apps priced less than 10$, while lots of games go up to 35$. 
+ 
  Continuing my per genre investigation, it was shown that some Educational, Utilities,
  and Work related genres had more Paid apps than Free.
+ 
  Initial observations suggested making Paid apps for those genres, since you would have better chance of success. 
- But with multivariate exploration of genres and ratings (Both average and total), 
- I was surprised to know that these specific genres actually had better average ratings for their free apps, 
- while all other genres (e.g. Games, Entertainment..) had better ratings for their Paid apps.
- Further investigation pointed out that almost all genres have more total ratings for Free apps, 
- which means a much larger % of users would use Free apps over Paid apps, up to 10x for Utilities and 5x for Educational apps. 
+ But with multivariate exploration of genres and ratings (Both average and total), I was surprised to know that these specific genres actually had better average ratings for their free apps, while all other genres (e.g. Games, Entertainment..) had better ratings for their Paid apps.
+ 
+ Further investigation pointed out that almost all genres have more total ratings for Free apps, which means a much larger % of users would use Free apps over Paid apps, up to 10x for Utilities and 5x for Educational apps. 
 This explains how looking at one measure only can be misleading. 
-Looking at the following variables at once: average ratings, total ratings, per Genre for Free vs Paid apps, through one plot, 
-revealed important insights for developers to know which type is best for each genre, Free or Paid:
-Specific genres have better support for Paid apps, mainly those which are niche and have a small audience. 
-If one is creating a game app, it can be Free or Paid  and it would produce similar resuls as per ratings.
-Other genres have a strong competition and you can hardly succeed with a Paid app, such as Social Networking.
+Looking at the following variables at once: average ratings, total ratings, per Genre for Free vs Paid apps, through one plot, revealed important insights for developers to know which type is best for each genre, Free or Paid:
+> Specific genres have better support for Paid apps, mainly those which are niche and have a small audience. 
+ If one is creating a game app, it can be Free or Paid  and it would produce similar resuls as per ratings.
+ Other genres have a strong competition and you can hardly succeed with a Paid app, such as Social Networking.
 
 Other features of interest proved helpful; I discovered that most apps with large sizes 
 are spread out on the higher levels of ratings. And that apps that support more than 4 languages
